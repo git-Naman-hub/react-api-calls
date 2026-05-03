@@ -17,6 +17,8 @@ JavaScript (ES6+)
 Tailwind CSS (v4)
 Fetch API
 📂 Project Structure
+
+
 src/
 │
 ├── components/
