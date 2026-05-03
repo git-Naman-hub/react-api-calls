@@ -1,16 +1,33 @@
-# React + Vite
+🍽️ Recipe Explorer (React + Tailwind)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean React application that fetches recipes from an API and displays them.
+(Main focus is not on UI but on React😅)
 
-Currently, two official plugins are available:
+🚀 Features
+🔍 Fetch recipes from an external API
+📦 Display multiple recipes dynamically
+🖼️ Show recipe image, title, and instructions
+📝 Format instructions into readable steps
+🔢 Numbered recipe cards (Recipe 1, Recipe 2, ...)
+⚡ Built with React Hooks (useState, useEffect)
+🎨 Styled using Tailwind CSS
+🛠️ Tech Stack
+React (Vite)
+JavaScript (ES6+)
+Tailwind CSS (v4)
+Fetch API
+📂 Project Structure
+src/
+│
+├── components/
+│   └── Recipe.jsx
+│
+├── App.jsx
+├── main.jsx
+├── index.css
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<img width="1440" height="900" alt="Screenshot 2026-05-03 at 7 25 31 PM" src="https://github.com/user-attachments/assets/f0108971-fbe5-4240-8e59-af938ce1dc1b" />
 
-## React Compiler
+<img width="1440" height="900" alt="Screenshot 2026-05-03 at 7 25 48 PM" src="https://github.com/user-attachments/assets/513bd83c-1678-443e-ac54-58bd41b2864d" />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
